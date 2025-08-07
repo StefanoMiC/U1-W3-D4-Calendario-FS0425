@@ -22,6 +22,8 @@
 
 // ✅ EXTRA - la cella del giorno contenente appuntamenti dovrebbe dare un feedback della loro presenza (pallino con classe .dot)
 
+// array globale che conterrà lo stesso numero di celle quante sono quelle generate nel calendario
+// (vedi funzione createDays e suo for loop)
 const appointments = [];
 /* 
 [
